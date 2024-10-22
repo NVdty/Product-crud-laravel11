@@ -88,9 +88,9 @@
 </html>
 
 <script>
-    function deleteProduct($id){
+    function deleteProduct(id){
         if(confirm("Are you sure you want to delete product?")){
-            document.getElementById("delete-product-from-"+id).submit();
+            document.getElementById("delete-product-from-"+id).submit();   
         }
     }
 </script>
